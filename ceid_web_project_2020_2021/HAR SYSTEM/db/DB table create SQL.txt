@@ -1,0 +1,30 @@
+DROP TABLE `statuscount`;
+DROP TABLE `reqconttype`;
+DROP TABLE `methodcount`;
+DROP TABLE `contenttypecount`;
+DROP TABLE `serverloc`;
+CREATE TABLE `statuscount`
+(
+ 	word int(3),
+    wordCount int(10),
+    PRIMARY KEY (word)
+);
+CREATE TABLE `methodcount`
+(
+ 	word varchar(10),
+    wordCount int(10),
+    PRIMARY KEY (word)
+);
+CREATE TABLE `contenttypecount`
+(
+ 	word varchar(100),
+    wordCount int(10),
+    PRIMARY KEY (word)
+);
+CREATE TABLE `serverloc`
+(
+ 	latitude varchar(10),
+    longitude varchar(10),
+    cnter int(10),
+    PRIMARY KEY (latitude,longitude)
+);

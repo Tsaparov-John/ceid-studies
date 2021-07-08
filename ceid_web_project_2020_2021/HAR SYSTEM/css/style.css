@@ -1,0 +1,505 @@
+/*-- Body Reset --*/
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #181818;
+    font-size: 1.3rem!important;
+  }
+  
+    
+  /*============= NAVIGATION =============*/
+  
+  .navbar-brand img{
+      height: 3rem;
+  }
+
+  .navbar{
+      font-size: 1.15rem;
+      font-weight:600;
+      letter-spacing: 0.05rem;
+      box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, .2);
+      z-index: 1;
+      
+    }
+
+    .nav-item{
+        padding: .5rem;
+    }
+  
+    .nav-link{
+        color:#083b66!important; 
+    }
+
+    .nav-link.active,
+     .nav-link:hover{
+        color:#1761a0!important; 
+    }
+  
+
+    /*==== Home page ======================*/
+
+  /*============= CAROUSEL =============*/
+  #carousel {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
+  }
+
+  .carousel-inner{
+      max-height: 52rem!important;
+  }
+  
+  /*---Change Carousel Transition Speed --*/
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active{
+    transition:transform 1.1s ease;
+
+  }
+  
+  /*-- Carousel Content --*/
+  
+  .carousel-caption{
+      position: absolute;
+      top:55%;
+      transform: translateY(-50%);
+      
+  }
+
+  .bg-custom{
+      background-color: #01233fc0;
+      color: #ffffff!important;
+      border-radius: 1rem;
+  }
+
+  .carousel-caption h1{
+      font-size: 3.4rem;
+      text-shadow: 0.1rem 0.1rem .3rem rgba(206, 227, 255, 0.431);
+  }
+  .border-primary{
+      border-top: .2rem solid #d5e4ff88!important;
+  }
+
+  .carousel-caption h3{
+    font-size: 1.6rem;
+    text-shadow: .3rem .3rem .4rem rgba(255, 255, 255, 0.294);
+}
+  /* OUR TEAM */
+  .lead{
+      font-size: 1.6rem;
+      font-weight: 500;
+    
+  }
+#image{
+  width: 40%;
+  padding-top: 4%;
+  position: relative;
+  top: -7%;
+  
+  
+}
+
+  .text-left{
+    font-size: 1rem;
+}
+  /*help us -- fixed omage*/
+  .fixed{
+      background-image: url('../img/fixed.jpg');
+      position: fixed;
+      
+      
+  }
+
+  #contact{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .fixed-background{
+      width: 100%;
+      padding: 10rem 0;
+  }
+
+  .py-3{
+      font-size: 3rem;
+      text-shadow:.1rem .1rem .2rem #060525;
+  }
+
+
+
+/*===== FIXED BACKGROUND IMG =====*/
+  
+  
+  #help{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
+  }
+ 
+/*================login-register page================*/
+ 
+
+
+
+  #bodylog {
+    color:inherit!important;
+    background-image: url(../img/pic1.jpg);
+    background-size: cover;
+    background-position: top;
+    box-sizing: border-box;
+    }
+   
+  .contains {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+  .loginregister{
+
+    height: 850px;
+    width:500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0%;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.9);
+    background: linear-gradient(180deg, rgba(3, 0, 19, 0.883) 0%, rgba(8, 0, 51, 0.835) 25%,  rgba(17, 0, 114, 0.603)75%);
+    color: #ffffff!important; 
+   }
+
+   .input{
+    color: #ffffff;
+   }
+   /* Nav Buttons  */
+  .nav-buttons {
+    
+    width: 100%;
+    height: 100px;
+    padding-left: 10%;
+    padding-top: 40px;
+    opacity: 1;
+    margin-bottom: 3em;
+    
+  }
+  button {
+      color: #ffffff;
+      background-color:inherit;
+      font-size: 1.5em;
+      margin-right:1em;
+      border:0px;
+      cursor: pointer;
+   
+  }
+  button:focus {
+      outline: 0px;
+  }
+  button.active {
+      padding-bottom: 10px;
+      border-bottom: solid 2px #1059FF;
+  } 
+
+  
+
+  
+  #forgot {
+    position: relative;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 24px;
+    margin-top: 0px;
+    color:#ffffff!important;
+    font-size: 1rem;
+    border-top: solid 1px rgba(255,255,255,.3);    
+}
+
+/* form styling */
+.form-group input {
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  background-color: #ffffff98;
+
+
+  }
+.form-group label {
+text-transform: uppercase;
+margin-left: 10%;
+}
+input.submit {
+ 
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-decoration-color: #ffffff;
+  align-content: center;
+  text-align: center;
+  padding: 4px 0px;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 25px;
+  color: #ffffff;
+  background-color: #ffffff30;
+
+}
+
+/* form positioning and animation */
+form, #forgot { 
+  position: relative;
+  transition: all 0.5s ;
+}
+#loginbtn, #registerbtn {
+  transition: all 0.5s ease;
+
+}
+
+#loginform {
+  left:0px;
+  }
+  
+  #registerform {
+  left:600px;
+  top:-500px;
+  opacity: 0;
+  } 
+
+
+#error{
+margin-top:0;
+text-align: center!important;
+font-size: small;
+color: rgb(221, 228, 255);
+
+}
+
+/* userhome css*/
+#uploader{
+  align-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#titleupload{
+  padding-top: 40px;
+  align-content: center;
+}
+.myfile{
+   margin-top: 20px;
+  background-color:#ffffff;
+  color: #1761a0;
+  text-align: center;
+}
+
+#controls{
+padding-top: 10px;
+margin: 20% ,20% , 20px, 20px;
+text-align: center;
+}
+
+
+#filebutton{
+  text-align: center;
+ 
+  
+}
+#save,#upload{
+  margin-top: 20px;
+  background-color: #1761a0;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+
+}
+
+
+
+
+#map {
+  margin-left: 20%;
+  margin-right:20%;
+ padding-top: 60px;
+ padding-bottom: 100px;
+   height:600px;
+   width:1200px;
+  
+  }
+
+
+  #emptyspace{
+    margin-bottom:100px;
+  }
+
+ 
+  /* profile.php */
+
+  #logged{
+    background-color:#f5fbff;
+   }
+
+  #stats{    
+    font-size: large;
+    padding-top:40px;
+  }
+
+ .here { 
+     padding:5px;
+    
+    }
+    
+ /*admin*/
+ 
+    #admin{
+      text-align:center!important;
+      align-items:center;
+    }
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /*============= FOOTER =============*/
+  
+  .bg-dark{
+    background-color: #555555!important;
+  }
+ 
+  #footer{
+    padding-right: 0px!important; 
+    padding-left: 0px!important;
+    margin: -20px;
+  }
+  #test{
+    padding:300px;
+  }
+  
+  
+  /*============= MEDIA QUERIES =============*/
+  
+  /* Devices under 1199px (xl) */
+  @media (max-width: 1199.98px) {
+  
+  }
+  /* Devices under 768px (md) */
+  @media (max-width: 767.98px) {
+  
+  }
+  
+  
+  /*============ BOOTSTRAP BREAK POINTS:
+  
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  
+  =============*/
+
+
+ 
+  
+  /*-- Bootstrap Mobile Gutter Fix --*/
+  .row, .container-fluid {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  
+  /*-- Fixed Background Image --*/
+  .fixed-background {
+    position: relative;
+    width: 100%;
+    z-index: 1000!important;
+  }
+  .fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999 !important;
+  }
+  .fixed {
+    z-index: -999!important;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+  }
+
+  

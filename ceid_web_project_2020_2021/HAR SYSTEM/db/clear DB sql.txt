@@ -1,0 +1,12 @@
+TRUNCATE `files`;
+TRUNCATE `panos`;
+TRUNCATE `john`;
+TRUNCATE `kira`;
+TRUNCATE `statuscount`;
+TRUNCATE `serveruserloc`;
+TRUNCATE `methodcount`;
+TRUNCATE `contenttypecount`;
+TRUNCATE `reqconttype`;
+TRUNCATE `serverloc`;
+UPDATE `admincount` SET UnDom=0,UnISP=0,TotEntries=0;
+UPDATE `user` set counterEntries=0,stamptime='';
