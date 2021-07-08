@@ -1,0 +1,19 @@
+PROGRAM testvector_6
+STRUCT strct
+VARS
+INTEGER int_1;
+CHAR char_1; 
+ENDSTRUCT
+STARTMAIN
+VARS
+struct strs;
+INTEGER int_1=1;
+INTEGER int_2=2;
+CHAR char_1 = "123" ;
+INTEGER int_3;
+%COMMENT
+/* MULTILINE
+COMMENT
+*/
+
+ENDMAIN

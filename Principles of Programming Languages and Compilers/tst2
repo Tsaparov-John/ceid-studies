@@ -1,0 +1,47 @@
+PROGRAM testvector_2
+STARTMAIN
+VARS
+INTEGER int_1=1;
+INTEGER int_2=2;
+CHAR char_1 = "123" ;
+INTEGER int_3;
+%COMMENT
+/* MULTILINE
+COMMENT
+*/
+IF(int_1==2) THEN
+
+PRINT("ENTERED IF");
+
+ENDIF
+
+IF (int_2 != 1 ) THEN
+PRINT("VARIBLES ",int_1,int_2);
+ELSEIF(int_2<2) THEN
+int_2=3+2;
+ELSE
+char_1="siff";
+ENDIF
+
+FOR int_3=0 TO 10 1
+
+int_1=2*3;
+int_2=int_3;
+ENDFOR
+
+WHILE( int_3>100)
+PRINT("WHILE LOOP");
+BREAK;
+int_3=int_3-1;
+ENDWHILE
+
+SWITCH(int_3)
+CASE(int_2):
+char_1="smth";
+CASE(3):
+int_1=2/4;
+DEFAULT
+PRINT("no suitable case");
+ENDSWITCH
+
+ENDMAIN
